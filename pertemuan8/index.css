@@ -1,0 +1,17 @@
+.card {
+    transition: 1.0s;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: coral;
+}
+@media only screen and (max-width: 576px) {
+    .card-2 {
+        background-color: tomato;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+}
